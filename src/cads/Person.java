@@ -1,3 +1,5 @@
+package cads;
+
 public class Person {
     private String firstName;
     private String middleName;
@@ -34,8 +36,8 @@ public class Person {
         return lastName;
     }
     /**
-     * Returns a concatenated string of the Person's name
-     * @return the Person's first, middle, ans last name.
+     * Returns a concatenated string of the cads.Person's name
+     * @return the cads.Person's first, middle, ans last name.
      */
     public String getName() {
         return firstName + " " + middleName + " " + lastName;

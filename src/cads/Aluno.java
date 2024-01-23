@@ -1,5 +1,7 @@
+package cads;
+
 import java.util.Arrays;
-public class Aluno extends Person{
+public class Aluno extends Person {
     private int IdAluno;
     private double mediaGeral;
     private double[] notas;
