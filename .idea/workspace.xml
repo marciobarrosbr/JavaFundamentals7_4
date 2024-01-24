@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aeb945b9-b4ca-47d6-aeb9-c8562a641620" name="Changes" comment="done first part of problem, need some refinement with its comments">
-      <change beforePath="$PROJECT_DIR$/src/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cads/Aluno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cads/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cads/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/instrumentIventory/Guitar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/instrumentIventory/Instrument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/instrumentIventory/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/instrumentIventory/StringInstrument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +24,22 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <branch-grouping />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "marciobarrosbr"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="159727c0-ccb3-4748-8e8c-5e6f5d5cef7c" />
+        <option name="url" value="https://github.com/marciobarrosbr/JavaFundamentals7_4.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProblemsViewState">
     <hideBySeverity>
@@ -39,9 +56,9 @@
     <option name="selectedTabId" value="CurrentFile" />
     <option name="sortBySeverity" value="false" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2bLy0COpWQc7mwhKia6JBpy4eoM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -53,6 +70,7 @@
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/marcio.barros/OneDrive/Cursos/SENAI/Java Fundations/MyProjetcs/IdeaProjects/JavaFundamentals7_4/src/Main.java"
@@ -62,6 +80,13 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="cads" />
     </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -105,6 +130,47 @@
     <option name="LAST_COMMIT_MESSAGE" value="done first part of problem, need some refinement with its comments" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/instrumentIventory/Main.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/instrumentIventory/Main.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/instrumentIventory/Guitar.java</url>
+          <line>5</line>
+          <properties class="instrumentIventory.Guitar" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/instrumentIventory/Instrument.java</url>
+          <line>6</line>
+          <properties class="instrumentIventory.Instrument" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/instrumentIventory/StringInstrument.java</url>
+          <line>5</line>
+          <properties class="instrumentIventory.StringInstrument" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="Aluno" memberName="notas" />
